@@ -7,7 +7,7 @@ export const SidebarContainer = styled.aside`
   z-index: 999;
   width: 350px;
   height: 100%;
-  background: #ffc500;
+  background: #3bba9c; //Menu background color
   display: grid;
   align-items: center;
   top: 0;
@@ -68,7 +68,7 @@ export const SideBtnWrap = styled.div`
 `;
 
 export const SidebarRoute = styled(Link)`
-  background: #e31837;
+  background: #e31837; //Sidebar btn color
   white-space: nowrap;
   padding: 16px 64px;
   color: #fff;
